@@ -4,7 +4,7 @@ This project builds and compares multiple classification models to predict car e
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 - **Source**: [UCI Car Evaluation Dataset](https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)
 - **Instances**: 1,728 car records
@@ -21,7 +21,7 @@ All features are **ordinal categorical variables**.
 
 ---
 
-## 🔍 Project Goals
+## Project Goals
 
 - Compare common classifiers: **Decision Tree**, **K-Nearest Neighbors**, **Logistic Regression**, **Naive Bayes**, and **SVM**
 - Test models with different hyperparameters and feature encodings
@@ -35,7 +35,7 @@ All features are **ordinal categorical variables**.
 
 ---
 
-## ⚙️ Modeling Approach
+## Modeling Approach
 
 - Preprocessed the dataset using both **Label Encoding** and **One-Hot Encoding**
 - Applied grid/randomized search for hyperparameter tuning
@@ -44,7 +44,7 @@ All features are **ordinal categorical variables**.
 
 ---
 
-## 🧠 Key Findings
+## Key Findings
 
 - **SVM and Decision Tree** delivered the highest accuracy
 - Treating features as **ordinal** (via Label Encoding) produced better results than One-Hot Encoding
@@ -53,7 +53,7 @@ All features are **ordinal categorical variables**.
 
 ---
 
-## 🏆 Final Model
+## Final Model
 
 - **Model**: Decision Tree (Depth = 5)
 - **Encoding**: Label Encoding
